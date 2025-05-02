@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #87cefa;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background: #f5fffa;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  grid-column: span 2;
+  background: #8a2be2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #00c27a;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header nav span {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #b2e0d0;
+}
+
+.author {
+  background:#1e90ff;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.author img {
+  width: 80%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.author h2 {
+  margin: 10px 0 5px;
+}
+
+main {
+  padding: 20px;
+  background: white;
+  color: #222;
+}
+
+.details p, .plot ul li, .themes ul li {
+  margin: 10px 0;
+}
+
+.plot ul, .themes ul {
+  padding-left: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #0b1a3e;
+}
+
+blockquote {
+  margin: 10px 0;
+  padding-left: 20px;
+  border-left: 4px solid #00c27a;
+  color: #333;
+  font-style: italic;
+}
